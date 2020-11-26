@@ -5,14 +5,6 @@ Frame by frame is jQuery plugin for image moving effect while scrolling.
 
 ## Using:
 ```html
-<div id="anchor" class="canvas-container">
-    <div class="bg-container">
-        <div class="sticky-pos">
-            <canvas id="canvas"></canvas>
-        </div>
-    </div>
-</div>
-
 <!-- Javascript -->
 <script>
       window.onload = function () {
@@ -62,3 +54,35 @@ Show some of the frames longer, in the example below 29th frame will be shown fr
 ## Example:
 - [Image pause](https://codesandbox.io/s/wizardly-napier-0z9ls)
 
+
+Use anchor to bind your start position to the element
+```html
+<!-- Javascript -->
+<script>
+        <div id="anchor" class="canvas-container">
+            <div class="bg-container">
+                <div class="sticky-pos">
+                    <canvas id="canvas"></canvas>
+                </div>
+            </div>
+        </div>
+        window.onload = function () {
+            $("#canvas").frameByFrame(
+              [
+                // [0, 2000, 5000, 10000],
+                // 1, 29, 29, 100]
+              ],
+              {
+                // canvasWidth: imageBaseWidth,
+                // canvasHeight: imageBaseHeight,
+                // canvasImagesPath: "pathToImages",
+                //canvasImagesFormat: ".jpg" or ".png",
+                //frameCount: imagesCount,
+                anchor: "#anchor" 
+              }
+            );
+        };
+</script>
+```
+## Example:
+- [Image pause](https://codesandbox.io/s/wonderful-water-pymc8)
