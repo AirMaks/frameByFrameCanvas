@@ -10,6 +10,8 @@ Frame by frame is javascript library for image moving effect while scrolling, in
         </div>
     </div>
 </div>
+
+<!-- Javascript -->
 <script>
       window.onload = function () {
         $("#canvas").frameByFrame(
