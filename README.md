@@ -24,8 +24,7 @@ Frame by frame is javascript library for image moving effect while scrolling, in
             canvasHeight: 1583,
             canvasImagesPath: "http://iself-inox.ru/img/omega/",
             canvasImagesFormat: ".jpg",
-            frameCount: 100,
-            anchor: "#anchor"
+            frameCount: 100
           }
         );
       };
