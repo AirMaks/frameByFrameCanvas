@@ -16,7 +16,7 @@ Frame by frame is jQuery plugin for image moving effect while scrolling.
           {
             canvasWidth: imageBaseWidth,
             canvasHeight: imageBaseHeight,
-            canvasImagesPath: "pathToImages",
+            canvasImagesPath: "pathToImages", // images names must be in order from 1 (1.png) to last number (100.png)
             canvasImagesFormat: ".jpg" or ".png",
             frameCount: imagesCount,
             anchor: "id of the element you want to bind animation start" // not obligatory
