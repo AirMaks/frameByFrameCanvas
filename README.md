@@ -85,4 +85,4 @@ Use anchor to bind your start position to the element
 </script>
 ```
 ## Example:
-- [Image pause](https://codesandbox.io/s/wonderful-water-pymc8)
+- [Anchor to an element](https://codesandbox.io/s/wonderful-water-pymc8)
