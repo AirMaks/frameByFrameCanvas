@@ -29,7 +29,7 @@ Frame by frame is javascript library for image moving effect while scrolling, in
           }
         );
       };
-    </script>
+</script>
 ```
 
 ## Example:
