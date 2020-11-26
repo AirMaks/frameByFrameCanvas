@@ -37,7 +37,7 @@ Frame by frame is jQuery plugin for image moving effect while scrolling.
 ## Example:
 - [Image moving effect](https://codesandbox.io/s/musing-banzai-unhed)
 
-Show some of the frames longer, in the example below 20th frame will be shown from 2000px to 5000px
+Show some of the frames longer, in the example below 29th frame will be shown from 2000px to 5000px
 ```html
 <!-- Javascript -->
 <script>
@@ -45,7 +45,7 @@ Show some of the frames longer, in the example below 20th frame will be shown fr
         $("#canvas").frameByFrame(
           [
             [0, 2000, 5000, 10000],
-            [1, 20, 20, 100]
+            [1, 29, 29, 100]
           ],
           {
             // canvasWidth: imageBaseWidth,
@@ -59,4 +59,6 @@ Show some of the frames longer, in the example below 20th frame will be shown fr
       };
 </script>
 ```
+## Example:
+- [Image pause](https://codesandbox.io/s/wizardly-napier-0z9ls)
 
