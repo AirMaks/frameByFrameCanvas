@@ -16,15 +16,15 @@ Frame by frame is javascript library for image moving effect while scrolling, in
       window.onload = function () {
         $("#canvas").frameByFrame(
           [
-            [0, 4000, 5500, 5501, 6000],
-            [1, 29, 1, 30, 100]
+            [0, 8000],
+            [1, 100]
           ],
           {
-            canvasWidth: 1795,
-            canvasHeight: 1583,
-            canvasImagesPath: "http://iself-inox.ru/img/omega/",
-            canvasImagesFormat: ".jpg",
-            frameCount: 100
+            canvasWidth: imageBaseWidth,
+            canvasHeight: imageBaseHeight,
+            canvasImagesPath: "pathToImages",
+            canvasImagesFormat: ".jpg" or ".png",
+            frameCount: imagesCount
           }
         );
       };
