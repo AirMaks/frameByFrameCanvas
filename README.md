@@ -1,6 +1,8 @@
 # frameByFrame.js
 Frame by frame is javascript library for image moving effect while scrolling, inspired by lax.js
 
+![frameByFrame.js](http://iself-inox.ru/img/gif.gif)
+
 ## Using:
 ```html
 <div id="anchor" class="canvas-container">
