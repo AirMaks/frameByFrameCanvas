@@ -69,8 +69,8 @@ Use anchor to bind your start position to the element
         window.onload = function () {
             $("#canvas").frameByFrame(
               [
-                // [0, 2000, 5000, 10000],
-                // 1, 29, 29, 100]
+                // [0, 10000],
+                // 1, 100]
               ],
               {
                 // canvasWidth: imageBaseWidth,
