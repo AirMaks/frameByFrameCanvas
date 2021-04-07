@@ -28,7 +28,7 @@ Frame by frame is jQuery plugin for image moving effect while scrolling.
 
 ## Example:
 - [Image moving effect](https://codesandbox.io/s/frosty-ramanujan-bhdur)
-)
+
 
 Show some of the frames longer, in the example below 29th frame will be shown from 2000px to 5000px
 ```html
