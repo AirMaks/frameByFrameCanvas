@@ -1,7 +1,7 @@
 # frameByFrame.js
 Frame by frame is jQuery plugin for image moving effect while scrolling.
 
-![frameByFrame.js](http://iself-inox.ru/img/gif.gif)
+
 
 ## Using:
 ```html
